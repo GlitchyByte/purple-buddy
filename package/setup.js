@@ -26,7 +26,7 @@ if (document.querySelector(".tw-animated-glitch-logo") && !window.glitchyByteMai
                     if (r) r.click()
                     const p = document.querySelector("button[aria-label='Play']")
                     if (p) p.click()
-                }, 5000)
+                }, 3000)
                 sendResponse({ iconOn: true })
             } else {
                 clearInterval(this.timerId)
