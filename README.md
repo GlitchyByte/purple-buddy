@@ -1,6 +1,6 @@
 # Purple Buddy
 
-![Version](https://img.shields.io/badge/Version-1.0-blue)
+![Version](https://img.shields.io/badge/Version-1.1-blue)
 
 Chrome extension for [Twitch](https://twitch.com/) auto-collection of channel points and playback resume when errors popup on the video player.
 
