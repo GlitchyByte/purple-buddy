@@ -3,4 +3,4 @@
 .vscode/
 
 # Local raw assets.
-assets/
+/assets/
