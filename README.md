@@ -7,7 +7,7 @@ Chrome extension for [Twitch](https://twitch.com/) auto-collection of channel po
 ---
 ## Install from the Chrome Web Store
 
-[Go to Chrome Web Store!](https://chrome.google.com/webstore/detail/purple-buddy/ifohnlbaokaemfghehnakeodeabmjmco)
+[Go to the Chrome Web Store!](https://chrome.google.com/webstore/detail/purple-buddy/ifohnlbaokaemfghehnakeodeabmjmco)
 
 URL: https://chrome.google.com/webstore/detail/purple-buddy/ifohnlbaokaemfghehnakeodeabmjmco
 
