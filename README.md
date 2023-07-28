@@ -5,6 +5,13 @@
 Chrome extension for [Twitch](https://twitch.com/) auto-collection of channel points and playback resume when errors popup on the video player.
 
 ---
+## Install from the Chrome Web Store
+
+[Go to Chrome Web Store!](https://chrome.google.com/webstore/detail/purple-buddy/ifohnlbaokaemfghehnakeodeabmjmco)
+
+URL: https://chrome.google.com/webstore/detail/purple-buddy/ifohnlbaokaemfghehnakeodeabmjmco
+
+---
 ## Installing from source
 
 Clone the repository:
