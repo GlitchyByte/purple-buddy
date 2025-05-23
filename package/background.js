@@ -1,9 +1,9 @@
-// Copyright 2022-2023 GlitchyByte
+// Copyright 2022-2025 GlitchyByte
 // SPDX-License-Identifier: MIT-0
 
 // Background script.
 
-const actionListener = tab => {
+const actionListener = (tab) => {
   const tabId = tab.id
 
   const click = () => {

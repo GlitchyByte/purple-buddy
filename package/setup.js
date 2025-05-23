@@ -1,4 +1,4 @@
-// Copyright 2022-2023 GlitchyByte
+// Copyright 2022-2025 GlitchyByte
 // SPDX-License-Identifier: MIT-0
 
 // Embedded setup.
@@ -10,8 +10,9 @@ if (document.querySelector(".tw-animated-glitch-logo") && !window.glitchyBytePur
   const listener = (request, sender, sendResponse) => {
     const context = window.glitchyBytePurpleBuddyContext
     const selectors = [
-        "button[aria-label='Claim Bonus']",
+        "button[aria-label='Claim Bonus']", // Channel points
         "button.ScCoreButton-sc-1qn4ixc-0.ScCoreButtonDestructive-sc-1qn4ixc-4",
+        "button.ScCoreButton-sc-ocjdkq-0.ggPgVz", // Reload player #2000
         "button[aria-label='Play']"
     ]
     if (request.message === "toggle") {

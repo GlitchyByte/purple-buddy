@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Purple Buddy",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "description": "Auto-collects channel points on Twitch, and auto-plays when errors popup and interrupt the video.",
     "author": "GlitchyByte",
     "icons": {
