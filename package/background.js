@@ -1,4 +1,4 @@
-// Copyright 2022-2025 GlitchyByte
+// Copyright 2022-2026 GlitchyByte
 // SPDX-License-Identifier: MIT-0
 
 // Background script.
@@ -8,6 +8,11 @@ const actionListener = (tab) => {
 
   const click = () => {
     chrome.tabs.sendMessage(tabId, { message: "toggle" }, null, response => {
+      if (chrome.runtime.lastError || !response) {
+        // No listener in this tab (not a Twitch page).
+        setIconOff()
+        return
+      }
       if (response.iconOn) {
         setIconOn()
       } else {
